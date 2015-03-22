@@ -1,33 +1,33 @@
 # Anti-Hijack Socks5 Server
-## ·À½Ù³ÖSocks5·þÎñÆ÷
-ÀûÓÃ½«·¢³öµÄHTTPÇëÇó²ð·Öµ½¶à¸öÊý¾Ý°üÖÐµÄÔ­ÀíÒÖÖÆHTTP½Ù³Ö¡£
+## é˜²åŠ«æŒSocks5æœåŠ¡å™¨
+åˆ©ç”¨å°†å‘å‡ºçš„HTTPè¯·æ±‚æ‹†åˆ†åˆ°å¤šä¸ªæ•°æ®åŒ…ä¸­çš„åŽŸç†æŠ‘åˆ¶HTTPåŠ«æŒã€‚
 
 ----------
 
-Ê¹ÓÃ·½·¨£º
- 1. °²×°Python£¬2.7ºÍ3.4°æ±¾²âÊÔ¿ÉÓÃ
- 2. £¨¿ÉÑ¡²½Öè£©±à¼­config.json£¬ÅäÖÃserver_port£¬Ä¬ÈÏÎª1080£¬¼´socks5·þÎñµÄ¶Ë¿Ú
- 3. ÔÚÃüÁîÐÐÏÂÖ´ÐÐpython main.py config.json¼´¿É¿ªÆôsocks5·þÎñ£¬ÅäºÏpolipo¿ÉÒÔ×ªÎªhttp´úÀí£¬Ö®ºóÉèÖÃä¯ÀÀÆ÷´úÀí¼´¿É
+ä½¿ç”¨æ–¹æ³•ï¼š
+ 1. å®‰è£…Pythonï¼Œ2.7å’Œ3.4ç‰ˆæœ¬æµ‹è¯•å¯ç”¨
+ 2. ï¼ˆå¯é€‰æ­¥éª¤ï¼‰ç¼–è¾‘config.jsonï¼Œé…ç½®server_portï¼Œé»˜è®¤ä¸º1080ï¼Œå³socks5æœåŠ¡çš„ç«¯å£
+ 3. åœ¨å‘½ä»¤è¡Œä¸‹æ‰§è¡Œpython main.py config.jsonå³å¯å¼€å¯socks5æœåŠ¡ï¼Œé…åˆpolipoå¯ä»¥è½¬ä¸ºhttpä»£ç†ï¼Œä¹‹åŽè®¾ç½®æµè§ˆå™¨ä»£ç†å³å¯
 
 ----------
 
-×¢Òâ£º
- 1. Í¨³£½Ù³Ö·¢ÉúÔÚHTTP£¬HTTPSÒ»°ã²»»á½Ù³Ö£¬ËùÒÔÖ»ÐèÒªÉèÖÃHTTP´úÀí¼´¿É£¬ÎÞÐèÉèÖÃHTTPS´úÀí
+æ³¨æ„ï¼š
+ 1. é€šå¸¸åŠ«æŒå‘ç”Ÿåœ¨HTTPï¼ŒHTTPSä¸€èˆ¬ä¸ä¼šåŠ«æŒï¼Œæ‰€ä»¥åªéœ€è¦è®¾ç½®HTTPä»£ç†å³å¯ï¼Œæ— éœ€è®¾ç½®HTTPSä»£ç†
 
 ----------
 
-²ÎÊýÅäÖÃ£º
- 1. `server_port`£ºsocks5´úÀíµÄ¶Ë¿Ú£¬Ä¬ÈÏ1080
- 2. `send_packet_size`£º²ð·ÖHTTPÇëÇóµÄµ¥°ü´óÐ¡£¬Ä¬ÈÏ10£¨×Ö½Ú£©£º±ÈÈçHTTPÇëÇóÎª95×Ö½Ú£¬ÄÇÃ´½«·Ö10¸öÊý¾Ý°ü·¢ËÍ£¨×îºóÒ»¸öÊý¾Ý°üÎª5×Ö½Ú£©
+å‚æ•°é…ç½®ï¼š
+ 1. `server_port`ï¼šsocks5ä»£ç†çš„ç«¯å£ï¼Œé»˜è®¤1080
+ 2. `send_packet_size`ï¼šæ‹†åˆ†HTTPè¯·æ±‚çš„å•åŒ…å¤§å°ï¼Œé»˜è®¤10ï¼ˆå­—èŠ‚ï¼‰ï¼šæ¯”å¦‚HTTPè¯·æ±‚ä¸º95å­—èŠ‚ï¼Œé‚£ä¹ˆå°†åˆ†10ä¸ªæ•°æ®åŒ…å‘é€ï¼ˆæœ€åŽä¸€ä¸ªæ•°æ®åŒ…ä¸º5å­—èŠ‚ï¼‰
 
-ÆäËûÅäÖÃËµÃ÷´ýÌí¼Ó¡£
+å…¶ä»–é…ç½®è¯´æ˜Žå¾…æ·»åŠ ã€‚
 
 ----------
 
-Windows°æ¼¯³ÉPythonºÍPolipo£¬ÓÐ¼òµ¥µÄÅäÖÃÏòµ¼£¬Èç²»»áÐÞ¸ÄÅäÖÃÎÄ¼þ¿ÉÒÔ³¢ÊÔÊ¹ÓÃ¡£¸ù¾ÝÏòµ¼ÌáÊ¾Æô¶¯·þÎñºó×ÔÐÐ´ò¿ªä¯ÀÀÆ÷¡£ÏÂÔØÁ´½Ó£º
+Windowsç‰ˆé›†æˆPythonå’ŒPolipoï¼Œæœ‰ç®€å•çš„é…ç½®å‘å¯¼ï¼Œå¦‚ä¸ä¼šä¿®æ”¹é…ç½®æ–‡ä»¶å¯ä»¥å°è¯•ä½¿ç”¨ã€‚æ ¹æ®å‘å¯¼æç¤ºå¯åŠ¨æœåŠ¡åŽè‡ªè¡Œæ‰“å¼€æµè§ˆå™¨ã€‚ä¸‹è½½é“¾æŽ¥ï¼š
  - 
  - 
 
-MD5:
+MD5: 8174dc699eb967dbce493044c25c9c51
 
-SHA1:
+SHA1: 3714fd80ad7584520e27b7c43863ef4a0b4a9d22
