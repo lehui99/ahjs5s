@@ -1,0 +1,30 @@
+{
+    "log_level" : "DEBUG",
+    "_log_file" : "main.log",
+    "log_format" : "%(asctime)s\t%(levelname)s\t%(message)s",
+    "server_sockfamily" : "AF_INET",
+    "server_addr" : "0.0.0.0",
+    "server_port" : 1080,
+    "backlog" : 50,
+    "_send_sep_size" : 1,
+    "send_packet_size" : 10,
+    "_recv_sep_size" : 1,
+    "recv_packet_size" : 65536,
+    "bind_addr" :
+    {
+        "AF_INET" : "0.0.0.0",
+        "AF_INET6" : "::"
+    },
+    "_dns_client" :
+    {
+        "name" : "dns_client_tcp",
+        "config" :
+        {
+            "timeout" : 2,
+            "servers" :
+            [
+                ["127.0.0.1", 5353]
+            ]
+        }
+    }
+}

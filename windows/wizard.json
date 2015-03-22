@@ -1,0 +1,30 @@
+{
+	"languages" : ["English(\u82f1\u6587)", "Chinese(\u4e2d\u6587)"],
+	"select" : "Select(\u9009\u62e9): ",
+	"translates" :
+	{
+		"select" : ["Select: ", "\u9009\u62e9\uff1a"],
+		"true_false" :
+		[
+			["Yes", "No"],
+			["\u662f", "\u5426"]
+		],
+		"menu_top" :
+		[
+			["Start service", "Edit configuration"],
+			["\u542f\u52a8\u670d\u52a1", "\u4fee\u6539\u914d\u7f6e"]
+		],
+		"start_menu" :
+		[
+			["Setting IE proxy to %s:%d(only http)...", "Please set proxy of browser to %s:%d(only http).", "Unset IE proxy", "Close this window if you want to stop service"],
+			["\u6b63\u5728\u8bbe\u7f6eIE\u4ee3\u7406\u4e3a%s:%d(\u4ec5HTTP)...", "\u8bf7\u81ea\u884c\u8bbe\u7f6e\u6d4f\u89c8\u5668\u7684\u4ee3\u7406\u670d\u52a1\u5668\u4e3a%s:%d(\u4ec5HTTP)\u3002", "\u53d6\u6d88\u8bbe\u7f6eIE\u4ee3\u7406", "\u5982\u679c\u4f60\u60f3\u505c\u6b62\u670d\u52a1\uff0c\u8bf7\u5173\u95ed\u672c\u7a97\u53e3"]
+		],
+		"edit_config_menu":
+		[
+			["Socks proxy port: ", "HTTP proxy port: ", "Set IE Proxy: ", "Return to previous menu"],
+			["Socks\u4ee3\u7406\u7aef\u53e3\uff1a", "HTTP\u4ee3\u7406\u7aef\u53e3\uff1a", "\u8bbe\u7f6eIE\u4ee3\u7406\uff1a", "\u8fd4\u56de\u4e0a\u4e00\u7ea7\u83dc\u5355"]
+		]
+	},
+	"http_proxy_port" : 3128,
+	"set_proxy" : true
+}
