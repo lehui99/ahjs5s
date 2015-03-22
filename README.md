@@ -24,7 +24,7 @@
 
 ----------
 
-Windows版集成Python和Polipo，有简单的配置向导，如不会修改配置文件可以尝试使用。根据向导提示启动服务后自行打开浏览器。下载链接：
+Windows版集成Python和Polipo，有简单的配置向导，如不会修改配置文件可以尝试使用。双击start_ahjs5s.bat后根据向导提示启动服务后自行打开浏览器。下载链接：
  - windows.7z: https://github.com/lehui99/ahjs5s/releases/tag/0.9
  - 
 
